@@ -22,24 +22,6 @@ print(age)
 
 #Logical Operators i.e AND,OR,NOT
 
-temperature = 35  
-
-if temperature > 30:
-    print("Its a hot day")
-elif temperature == 20:
-    print("Its not hot")
-else:
-    print("Not conducive") 
-
-
-# While is used to repeat a block of code multiple times
-    
-i= 0
-
-while i <= 5:
-    print(i)
-    i += 1
-
 
 # Lists
 names = ["John","Mark","Luke","Michael"]
@@ -48,7 +30,3 @@ print(names[0:3])  #display from index 0 to 2
 # 1 in names
 # List Methods i.e List.append(6)- last, List.insert(8)- beginning, List.remove(3),List.length
 
-# For loop
-numbers = [1,2,3,4,5]
-for item in numbers:
-    print(item) 
